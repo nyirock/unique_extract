@@ -1,0 +1,36 @@
+forked and cloned Workshop repository
+andriy@5742G ~/Documents/workshop/data/data/Git/unique_extract $ cd ~/Desktop/
+andriy@5742G ~/Desktop $ git clone https://github.com/nyirock/2015-10-05-UC.git
+Cloning into '2015-10-05-UC'...
+remote: Counting objects: 1864, done.
+remote: Compressing objects: 100% (29/29), done.
+remote: Total 1864 (delta 11), reused 0 (delta 0), pack-reused 1833
+Receiving objects: 100% (1864/1864), 1.01 MiB | 266.00 KiB/s, done.
+Resolving deltas: 100% (1056/1056), done.
+Checking connectivity... done.
+
+andriy@5742G ~/Desktop/2015-10-05-UC/lessons $ git add Most_important_thing_l_learned.md 
+andriy@5742G ~/Desktop/2015-10-05-UC/lessons $ commit -m "Most important thing learned added"
+commit: command not found
+andriy@5742G ~/Desktop/2015-10-05-UC/lessons $ git commit -m "Most important thing learned added"
+[gh-pages 71abec9] Most important thing learned added
+ 1 file changed, 1 insertion(+)
+andriy@5742G ~/Desktop/2015-10-05-UC/lessons $ git push origin gh-pages
+git: 'credential-wincred' is not a git command. See 'git --help'.
+Username for 'https://github.com': nyirock
+Password for 'https://nyirock@github.com': 
+git: 'credential-wincred' is not a git command. See 'git --help'.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/nyirock/2015-10-05-UC.git/'
+andriy@5742G ~/Desktop/2015-10-05-UC/lessons $ git push origin gh-pages
+git: 'credential-wincred' is not a git command. See 'git --help'.
+Username for 'https://github.com': nyirock
+Password for 'https://nyirock@github.com': 
+git: 'credential-wincred' is not a git command. See 'git --help'.
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 372 bytes | 0 bytes/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+To https://github.com/nyirock/2015-10-05-UC.git
+   4156a38..71abec9  gh-pages -> gh-pages
