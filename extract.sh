@@ -3,4 +3,4 @@
 
 #Acknowledged! Oscar.
 
-cut -f $1 -d ',' data/antibiotics.csv | sort| uniq > antibiotics_unique.csv
+cut -f $1 -d ',' data/$2 | sort| uniq > antibiotics_unique.csv
